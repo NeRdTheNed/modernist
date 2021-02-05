@@ -2,3 +2,7 @@ title: Modernist theme
 description: Modernist is a theme for GitHub Pages.
 show_downloads: true
 theme: jekyll-theme-modernist
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
