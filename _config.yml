@@ -4,7 +4,12 @@ show_downloads: true
 theme: jekyll-theme-modernist
 markdown: kramdown
 kramdown:
-   syntax_highlighter_opts:
-      disable : true
+  syntax_highlighter_opts:
+    disable : true
 sass:
-    style: compressed
+  style: compressed
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [html, head, body]
