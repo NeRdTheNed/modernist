@@ -9,7 +9,7 @@ def validator(file)
     W3CValidators::NuValidator.new
   elsif extension == ".css"
     @cssVal = W3CValidators::CSSValidator.new
-    @cssVal.set_profile!('svg')
+    @cssVal.set_profile!("svg")
     return @cssVal
   end
 end
