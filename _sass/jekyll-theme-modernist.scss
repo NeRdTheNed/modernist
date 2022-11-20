@@ -9,7 +9,6 @@ body {
   margin: 0;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
-  font-weight: 300;
   background: url("../images/checker.png") fixed;
   min-height: calc(100% - 100px);
 }
@@ -66,7 +65,8 @@ header {
 
   p {
     margin: 0;
-    color: #61778b;
+    color: #069;
+    text-shadow: rgba(#fff, 0.9) 0 0.5px 0;
     width: 300px;
     font-size: 13px;
 
@@ -96,8 +96,7 @@ header {
     top: 20px;
     height: 38px;
     padding: 1px 0;
-    background: #5198df;
-    background: linear-gradient(#77b9fb, #3782cd);
+    background: #069;
     border-radius: 5px;
     box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
     width: auto;
@@ -140,7 +139,6 @@ header {
       line-height: 1;
       font-size: 11px;
       color: #fff;
-      color: rgba(#fff, 0.8);
       display: block;
       text-align: center;
       font-weight: 400;
@@ -301,12 +299,12 @@ footer {
   width: 640px;
   margin: 0 auto;
   padding: 20px 0 0;
-  color: #ccc;
+  color: #fff;
   overflow: hidden;
   font-size: 11px;
 
   a {
-    color: #fff;
+    color: #eef;
     font-weight: bold;
   }
 
