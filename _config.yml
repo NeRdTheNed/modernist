@@ -10,6 +10,6 @@ sass:
   style: compressed
 compress_html:
   clippings: all
-  comments: all
+  comments: ["<!-- ", " -->"]
   endings: all
-  startings: [html, head, body]
+  startings: [html, head]
